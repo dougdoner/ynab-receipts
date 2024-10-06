@@ -1,0 +1,974 @@
+# gocv.io/x/gocv
+In file included from aruco.cpp:1:
+aruco.h:12:13: error: ‘aruco’ in namespace ‘cv’ does not name a type
+   12 | typedef cv::aruco::Dictionary* ArucoDictionary;
+      |             ^~~~~
+aruco.h:13:13: error: ‘aruco’ in namespace ‘cv’ does not name a type
+   13 | typedef cv::aruco::DetectorParameters* ArucoDetectorParameters;
+      |             ^~~~~
+aruco.h:14:13: error: ‘aruco’ in namespace ‘cv’ does not name a type
+   14 | typedef cv::aruco::ArucoDetector* ArucoDetector;
+      |             ^~~~~
+aruco.h:21:1: error: ‘ArucoDetectorParameters’ does not name a type
+   21 | ArucoDetectorParameters ArucoDetectorParameters_Create();
+      | ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:22:6: error: variable or field ‘ArucoDetectorParameters_SetAdaptiveThreshWinSizeMin’ declared void
+   22 | void ArucoDetectorParameters_SetAdaptiveThreshWinSizeMin(ArucoDetectorParameters ap, int adaptiveThreshWinSizeMin);
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:22:58: error: ‘ArucoDetectorParameters’ was not declared in this scope
+   22 | void ArucoDetectorParameters_SetAdaptiveThreshWinSizeMin(ArucoDetectorParameters ap, int adaptiveThreshWinSizeMin);
+      |                                                          ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:22:86: error: expected primary-expression before ‘int’
+   22 | void ArucoDetectorParameters_SetAdaptiveThreshWinSizeMin(ArucoDetectorParameters ap, int adaptiveThreshWinSizeMin);
+      |                                                                                      ^~~
+aruco.h:23:57: error: ‘ArucoDetectorParameters’ was not declared in this scope
+   23 | int ArucoDetectorParameters_GetAdaptiveThreshWinSizeMin(ArucoDetectorParameters ap);
+      |                                                         ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:24:6: error: variable or field ‘ArucoDetectorParameters_SetAdaptiveThreshWinSizeMax’ declared void
+   24 | void ArucoDetectorParameters_SetAdaptiveThreshWinSizeMax(ArucoDetectorParameters ap, int adaptiveThreshWinSizeMax);
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:24:58: error: ‘ArucoDetectorParameters’ was not declared in this scope
+   24 | void ArucoDetectorParameters_SetAdaptiveThreshWinSizeMax(ArucoDetectorParameters ap, int adaptiveThreshWinSizeMax);
+      |                                                          ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:24:86: error: expected primary-expression before ‘int’
+   24 | void ArucoDetectorParameters_SetAdaptiveThreshWinSizeMax(ArucoDetectorParameters ap, int adaptiveThreshWinSizeMax);
+      |                                                                                      ^~~
+aruco.h:25:57: error: ‘ArucoDetectorParameters’ was not declared in this scope
+   25 | int ArucoDetectorParameters_GetAdaptiveThreshWinSizeMax(ArucoDetectorParameters ap);
+      |                                                         ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:26:6: error: variable or field ‘ArucoDetectorParameters_SetAdaptiveThreshWinSizeStep’ declared void
+   26 | void ArucoDetectorParameters_SetAdaptiveThreshWinSizeStep(ArucoDetectorParameters ap, int adaptiveThreshWinSizeStep);
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:26:59: error: ‘ArucoDetectorParameters’ was not declared in this scope
+   26 | void ArucoDetectorParameters_SetAdaptiveThreshWinSizeStep(ArucoDetectorParameters ap, int adaptiveThreshWinSizeStep);
+      |                                                           ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:26:87: error: expected primary-expression before ‘int’
+   26 | void ArucoDetectorParameters_SetAdaptiveThreshWinSizeStep(ArucoDetectorParameters ap, int adaptiveThreshWinSizeStep);
+      |                                                                                       ^~~
+aruco.h:27:58: error: ‘ArucoDetectorParameters’ was not declared in this scope
+   27 | int ArucoDetectorParameters_GetAdaptiveThreshWinSizeStep(ArucoDetectorParameters ap);
+      |                                                          ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:28:6: error: variable or field ‘ArucoDetectorParameters_SetAdaptiveThreshConstant’ declared void
+   28 | void ArucoDetectorParameters_SetAdaptiveThreshConstant(ArucoDetectorParameters ap, double adaptiveThreshConstant);
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:28:56: error: ‘ArucoDetectorParameters’ was not declared in this scope
+   28 | void ArucoDetectorParameters_SetAdaptiveThreshConstant(ArucoDetectorParameters ap, double adaptiveThreshConstant);
+      |                                                        ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:28:84: error: expected primary-expression before ‘double’
+   28 | void ArucoDetectorParameters_SetAdaptiveThreshConstant(ArucoDetectorParameters ap, double adaptiveThreshConstant);
+      |                                                                                    ^~~~~~
+aruco.h:29:58: error: ‘ArucoDetectorParameters’ was not declared in this scope
+   29 | double ArucoDetectorParameters_GetAdaptiveThreshConstant(ArucoDetectorParameters ap);
+      |                                                          ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:30:6: error: variable or field ‘ArucoDetectorParameters_SetMinMarkerPerimeterRate’ declared void
+   30 | void ArucoDetectorParameters_SetMinMarkerPerimeterRate(ArucoDetectorParameters ap, double minMarkerPerimeterRate);
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:30:56: error: ‘ArucoDetectorParameters’ was not declared in this scope
+   30 | void ArucoDetectorParameters_SetMinMarkerPerimeterRate(ArucoDetectorParameters ap, double minMarkerPerimeterRate);
+      |                                                        ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:30:84: error: expected primary-expression before ‘double’
+   30 | void ArucoDetectorParameters_SetMinMarkerPerimeterRate(ArucoDetectorParameters ap, double minMarkerPerimeterRate);
+      |                                                                                    ^~~~~~
+aruco.h:31:58: error: ‘ArucoDetectorParameters’ was not declared in this scope
+   31 | double ArucoDetectorParameters_GetMinMarkerPerimeterRate(ArucoDetectorParameters ap);
+      |                                                          ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:32:6: error: variable or field ‘ArucoDetectorParameters_SetMaxMarkerPerimeterRate’ declared void
+   32 | void ArucoDetectorParameters_SetMaxMarkerPerimeterRate(ArucoDetectorParameters ap, double maxMarkerPerimeterRate);
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:32:56: error: ‘ArucoDetectorParameters’ was not declared in this scope
+   32 | void ArucoDetectorParameters_SetMaxMarkerPerimeterRate(ArucoDetectorParameters ap, double maxMarkerPerimeterRate);
+      |                                                        ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:32:84: error: expected primary-expression before ‘double’
+   32 | void ArucoDetectorParameters_SetMaxMarkerPerimeterRate(ArucoDetectorParameters ap, double maxMarkerPerimeterRate);
+      |                                                                                    ^~~~~~
+aruco.h:33:58: error: ‘ArucoDetectorParameters’ was not declared in this scope
+   33 | double ArucoDetectorParameters_GetMaxMarkerPerimeterRate(ArucoDetectorParameters ap);
+      |                                                          ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:34:6: error: variable or field ‘ArucoDetectorParameters_SetPolygonalApproxAccuracyRate’ declared void
+   34 | void ArucoDetectorParameters_SetPolygonalApproxAccuracyRate(ArucoDetectorParameters ap, double polygonalApproxAccuracyRate);
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:34:61: error: ‘ArucoDetectorParameters’ was not declared in this scope
+   34 | void ArucoDetectorParameters_SetPolygonalApproxAccuracyRate(ArucoDetectorParameters ap, double polygonalApproxAccuracyRate);
+      |                                                             ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:34:89: error: expected primary-expression before ‘double’
+   34 | void ArucoDetectorParameters_SetPolygonalApproxAccuracyRate(ArucoDetectorParameters ap, double polygonalApproxAccuracyRate);
+      |                                                                                         ^~~~~~
+aruco.h:35:63: error: ‘ArucoDetectorParameters’ was not declared in this scope
+   35 | double ArucoDetectorParameters_GetPolygonalApproxAccuracyRate(ArucoDetectorParameters ap);
+      |                                                               ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:36:6: error: variable or field ‘ArucoDetectorParameters_SetMinCornerDistanceRate’ declared void
+   36 | void ArucoDetectorParameters_SetMinCornerDistanceRate(ArucoDetectorParameters ap, double minCornerDistanceRate);
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:36:55: error: ‘ArucoDetectorParameters’ was not declared in this scope
+   36 | void ArucoDetectorParameters_SetMinCornerDistanceRate(ArucoDetectorParameters ap, double minCornerDistanceRate);
+      |                                                       ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:36:83: error: expected primary-expression before ‘double’
+   36 | void ArucoDetectorParameters_SetMinCornerDistanceRate(ArucoDetectorParameters ap, double minCornerDistanceRate);
+      |                                                                                   ^~~~~~
+aruco.h:37:57: error: ‘ArucoDetectorParameters’ was not declared in this scope
+   37 | double ArucoDetectorParameters_GetMinCornerDistanceRate(ArucoDetectorParameters ap);
+      |                                                         ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:38:6: error: variable or field ‘ArucoDetectorParameters_SetMinDistanceToBorder’ declared void
+   38 | void ArucoDetectorParameters_SetMinDistanceToBorder(ArucoDetectorParameters ap, int minDistanceToBorder);
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:38:53: error: ‘ArucoDetectorParameters’ was not declared in this scope
+   38 | void ArucoDetectorParameters_SetMinDistanceToBorder(ArucoDetectorParameters ap, int minDistanceToBorder);
+      |                                                     ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:38:81: error: expected primary-expression before ‘int’
+   38 | void ArucoDetectorParameters_SetMinDistanceToBorder(ArucoDetectorParameters ap, int minDistanceToBorder);
+      |                                                                                 ^~~
+aruco.h:39:52: error: ‘ArucoDetectorParameters’ was not declared in this scope
+   39 | int ArucoDetectorParameters_GetMinDistanceToBorder(ArucoDetectorParameters ap);
+      |                                                    ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:40:6: error: variable or field ‘ArucoDetectorParameters_SetMinMarkerDistanceRate’ declared void
+   40 | void ArucoDetectorParameters_SetMinMarkerDistanceRate(ArucoDetectorParameters ap, double minMarkerDistanceRate);
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:40:55: error: ‘ArucoDetectorParameters’ was not declared in this scope
+   40 | void ArucoDetectorParameters_SetMinMarkerDistanceRate(ArucoDetectorParameters ap, double minMarkerDistanceRate);
+      |                                                       ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:40:83: error: expected primary-expression before ‘double’
+   40 | void ArucoDetectorParameters_SetMinMarkerDistanceRate(ArucoDetectorParameters ap, double minMarkerDistanceRate);
+      |                                                                                   ^~~~~~
+aruco.h:41:57: error: ‘ArucoDetectorParameters’ was not declared in this scope
+   41 | double ArucoDetectorParameters_GetMinMarkerDistanceRate(ArucoDetectorParameters ap);
+      |                                                         ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:42:6: error: variable or field ‘ArucoDetectorParameters_SetCornerRefinementMethod’ declared void
+   42 | void ArucoDetectorParameters_SetCornerRefinementMethod(ArucoDetectorParameters ap, int cornerRefinementMethod);
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:42:56: error: ‘ArucoDetectorParameters’ was not declared in this scope
+   42 | void ArucoDetectorParameters_SetCornerRefinementMethod(ArucoDetectorParameters ap, int cornerRefinementMethod);
+      |                                                        ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:42:84: error: expected primary-expression before ‘int’
+   42 | void ArucoDetectorParameters_SetCornerRefinementMethod(ArucoDetectorParameters ap, int cornerRefinementMethod);
+      |                                                                                    ^~~
+aruco.h:43:55: error: ‘ArucoDetectorParameters’ was not declared in this scope
+   43 | int ArucoDetectorParameters_GetCornerRefinementMethod(ArucoDetectorParameters ap);
+      |                                                       ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:44:6: error: variable or field ‘ArucoDetectorParameters_SetCornerRefinementWinSize’ declared void
+   44 | void ArucoDetectorParameters_SetCornerRefinementWinSize(ArucoDetectorParameters ap, int cornerRefinementWinSize);
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:44:57: error: ‘ArucoDetectorParameters’ was not declared in this scope
+   44 | void ArucoDetectorParameters_SetCornerRefinementWinSize(ArucoDetectorParameters ap, int cornerRefinementWinSize);
+      |                                                         ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:44:85: error: expected primary-expression before ‘int’
+   44 | void ArucoDetectorParameters_SetCornerRefinementWinSize(ArucoDetectorParameters ap, int cornerRefinementWinSize);
+      |                                                                                     ^~~
+aruco.h:45:56: error: ‘ArucoDetectorParameters’ was not declared in this scope
+   45 | int ArucoDetectorParameters_GetCornerRefinementWinSize(ArucoDetectorParameters ap);
+      |                                                        ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:46:6: error: variable or field ‘ArucoDetectorParameters_SetCornerRefinementMaxIterations’ declared void
+   46 | void ArucoDetectorParameters_SetCornerRefinementMaxIterations(ArucoDetectorParameters ap, int cornerRefinementMaxIterations);
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:46:63: error: ‘ArucoDetectorParameters’ was not declared in this scope
+   46 | void ArucoDetectorParameters_SetCornerRefinementMaxIterations(ArucoDetectorParameters ap, int cornerRefinementMaxIterations);
+      |                                                               ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:46:91: error: expected primary-expression before ‘int’
+   46 | void ArucoDetectorParameters_SetCornerRefinementMaxIterations(ArucoDetectorParameters ap, int cornerRefinementMaxIterations);
+      |                                                                                           ^~~
+aruco.h:47:62: error: ‘ArucoDetectorParameters’ was not declared in this scope
+   47 | int ArucoDetectorParameters_GetCornerRefinementMaxIterations(ArucoDetectorParameters ap);
+      |                                                              ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:48:6: error: variable or field ‘ArucoDetectorParameters_SetCornerRefinementMinAccuracy’ declared void
+   48 | void ArucoDetectorParameters_SetCornerRefinementMinAccuracy(ArucoDetectorParameters ap, double cornerRefinementMinAccuracy);
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:48:61: error: ‘ArucoDetectorParameters’ was not declared in this scope
+   48 | void ArucoDetectorParameters_SetCornerRefinementMinAccuracy(ArucoDetectorParameters ap, double cornerRefinementMinAccuracy);
+      |                                                             ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:48:89: error: expected primary-expression before ‘double’
+   48 | void ArucoDetectorParameters_SetCornerRefinementMinAccuracy(ArucoDetectorParameters ap, double cornerRefinementMinAccuracy);
+      |                                                                                         ^~~~~~
+aruco.h:49:63: error: ‘ArucoDetectorParameters’ was not declared in this scope
+   49 | double ArucoDetectorParameters_GetCornerRefinementMinAccuracy(ArucoDetectorParameters ap);
+      |                                                               ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:50:6: error: variable or field ‘ArucoDetectorParameters_SetMarkerBorderBits’ declared void
+   50 | void ArucoDetectorParameters_SetMarkerBorderBits(ArucoDetectorParameters ap, int markerBorderBits);
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:50:50: error: ‘ArucoDetectorParameters’ was not declared in this scope
+   50 | void ArucoDetectorParameters_SetMarkerBorderBits(ArucoDetectorParameters ap, int markerBorderBits);
+      |                                                  ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:50:78: error: expected primary-expression before ‘int’
+   50 | void ArucoDetectorParameters_SetMarkerBorderBits(ArucoDetectorParameters ap, int markerBorderBits);
+      |                                                                              ^~~
+aruco.h:51:49: error: ‘ArucoDetectorParameters’ was not declared in this scope
+   51 | int ArucoDetectorParameters_GetMarkerBorderBits(ArucoDetectorParameters ap);
+      |                                                 ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:52:6: error: variable or field ‘ArucoDetectorParameters_SetPerspectiveRemovePixelPerCell’ declared void
+   52 | void ArucoDetectorParameters_SetPerspectiveRemovePixelPerCell(ArucoDetectorParameters ap, int perspectiveRemovePixelPerCell);
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:52:63: error: ‘ArucoDetectorParameters’ was not declared in this scope
+   52 | void ArucoDetectorParameters_SetPerspectiveRemovePixelPerCell(ArucoDetectorParameters ap, int perspectiveRemovePixelPerCell);
+      |                                                               ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:52:91: error: expected primary-expression before ‘int’
+   52 | void ArucoDetectorParameters_SetPerspectiveRemovePixelPerCell(ArucoDetectorParameters ap, int perspectiveRemovePixelPerCell);
+      |                                                                                           ^~~
+aruco.h:53:62: error: ‘ArucoDetectorParameters’ was not declared in this scope
+   53 | int ArucoDetectorParameters_GetPerspectiveRemovePixelPerCell(ArucoDetectorParameters ap);
+      |                                                              ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:54:6: error: variable or field ‘ArucoDetectorParameters_SetPerspectiveRemoveIgnoredMarginPerCell’ declared void
+   54 | void ArucoDetectorParameters_SetPerspectiveRemoveIgnoredMarginPerCell(ArucoDetectorParameters ap, double perspectiveRemoveIgnoredMarginPerCell);
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:54:71: error: ‘ArucoDetectorParameters’ was not declared in this scope
+   54 | void ArucoDetectorParameters_SetPerspectiveRemoveIgnoredMarginPerCell(ArucoDetectorParameters ap, double perspectiveRemoveIgnoredMarginPerCell);
+      |                                                                       ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:54:99: error: expected primary-expression before ‘double’
+   54 | void ArucoDetectorParameters_SetPerspectiveRemoveIgnoredMarginPerCell(ArucoDetectorParameters ap, double perspectiveRemoveIgnoredMarginPerCell);
+      |                                                                                                   ^~~~~~
+aruco.h:55:73: error: ‘ArucoDetectorParameters’ was not declared in this scope
+   55 | double ArucoDetectorParameters_GetPerspectiveRemoveIgnoredMarginPerCell(ArucoDetectorParameters ap);
+      |                                                                         ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:56:6: error: variable or field ‘ArucoDetectorParameters_SetMaxErroneousBitsInBorderRate’ declared void
+   56 | void ArucoDetectorParameters_SetMaxErroneousBitsInBorderRate(ArucoDetectorParameters ap, double maxErroneousBitsInBorderRate);
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:56:62: error: ‘ArucoDetectorParameters’ was not declared in this scope
+   56 | void ArucoDetectorParameters_SetMaxErroneousBitsInBorderRate(ArucoDetectorParameters ap, double maxErroneousBitsInBorderRate);
+      |                                                              ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:56:90: error: expected primary-expression before ‘double’
+   56 | void ArucoDetectorParameters_SetMaxErroneousBitsInBorderRate(ArucoDetectorParameters ap, double maxErroneousBitsInBorderRate);
+      |                                                                                          ^~~~~~
+aruco.h:57:64: error: ‘ArucoDetectorParameters’ was not declared in this scope
+   57 | double ArucoDetectorParameters_GetMaxErroneousBitsInBorderRate(ArucoDetectorParameters ap);
+      |                                                                ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:58:6: error: variable or field ‘ArucoDetectorParameters_SetMinOtsuStdDev’ declared void
+   58 | void ArucoDetectorParameters_SetMinOtsuStdDev(ArucoDetectorParameters ap, double minOtsuStdDev);
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:58:47: error: ‘ArucoDetectorParameters’ was not declared in this scope
+   58 | void ArucoDetectorParameters_SetMinOtsuStdDev(ArucoDetectorParameters ap, double minOtsuStdDev);
+      |                                               ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:58:75: error: expected primary-expression before ‘double’
+   58 | void ArucoDetectorParameters_SetMinOtsuStdDev(ArucoDetectorParameters ap, double minOtsuStdDev);
+      |                                                                           ^~~~~~
+aruco.h:59:49: error: ‘ArucoDetectorParameters’ was not declared in this scope
+   59 | double ArucoDetectorParameters_GetMinOtsuStdDev(ArucoDetectorParameters ap);
+      |                                                 ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:60:6: error: variable or field ‘ArucoDetectorParameters_SetErrorCorrectionRate’ declared void
+   60 | void ArucoDetectorParameters_SetErrorCorrectionRate(ArucoDetectorParameters ap, double errorCorrectionRate);
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:60:53: error: ‘ArucoDetectorParameters’ was not declared in this scope
+   60 | void ArucoDetectorParameters_SetErrorCorrectionRate(ArucoDetectorParameters ap, double errorCorrectionRate);
+      |                                                     ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:60:81: error: expected primary-expression before ‘double’
+   60 | void ArucoDetectorParameters_SetErrorCorrectionRate(ArucoDetectorParameters ap, double errorCorrectionRate);
+      |                                                                                 ^~~~~~
+aruco.h:61:55: error: ‘ArucoDetectorParameters’ was not declared in this scope
+   61 | double ArucoDetectorParameters_GetErrorCorrectionRate(ArucoDetectorParameters ap);
+      |                                                       ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:62:6: error: variable or field ‘ArucoDetectorParameters_SetAprilTagQuadDecimate’ declared void
+   62 | void ArucoDetectorParameters_SetAprilTagQuadDecimate(ArucoDetectorParameters ap, float aprilTagQuadDecimate);
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:62:54: error: ‘ArucoDetectorParameters’ was not declared in this scope
+   62 | void ArucoDetectorParameters_SetAprilTagQuadDecimate(ArucoDetectorParameters ap, float aprilTagQuadDecimate);
+      |                                                      ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:62:82: error: expected primary-expression before ‘float’
+   62 | void ArucoDetectorParameters_SetAprilTagQuadDecimate(ArucoDetectorParameters ap, float aprilTagQuadDecimate);
+      |                                                                                  ^~~~~
+aruco.h:63:55: error: ‘ArucoDetectorParameters’ was not declared in this scope
+   63 | float ArucoDetectorParameters_GetAprilTagQuadDecimate(ArucoDetectorParameters ap);
+      |                                                       ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:64:6: error: variable or field ‘ArucoDetectorParameters_SetAprilTagQuadSigma’ declared void
+   64 | void ArucoDetectorParameters_SetAprilTagQuadSigma(ArucoDetectorParameters ap, float aprilTagQuadSigma);
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:64:51: error: ‘ArucoDetectorParameters’ was not declared in this scope
+   64 | void ArucoDetectorParameters_SetAprilTagQuadSigma(ArucoDetectorParameters ap, float aprilTagQuadSigma);
+      |                                                   ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:64:79: error: expected primary-expression before ‘float’
+   64 | void ArucoDetectorParameters_SetAprilTagQuadSigma(ArucoDetectorParameters ap, float aprilTagQuadSigma);
+      |                                                                               ^~~~~
+aruco.h:65:52: error: ‘ArucoDetectorParameters’ was not declared in this scope
+   65 | float ArucoDetectorParameters_GetAprilTagQuadSigma(ArucoDetectorParameters ap);
+      |                                                    ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:66:6: error: variable or field ‘ArucoDetectorParameters_SetAprilTagMinClusterPixels’ declared void
+   66 | void ArucoDetectorParameters_SetAprilTagMinClusterPixels(ArucoDetectorParameters ap, int aprilTagMinClusterPixels);
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:66:58: error: ‘ArucoDetectorParameters’ was not declared in this scope
+   66 | void ArucoDetectorParameters_SetAprilTagMinClusterPixels(ArucoDetectorParameters ap, int aprilTagMinClusterPixels);
+      |                                                          ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:66:86: error: expected primary-expression before ‘int’
+   66 | void ArucoDetectorParameters_SetAprilTagMinClusterPixels(ArucoDetectorParameters ap, int aprilTagMinClusterPixels);
+      |                                                                                      ^~~
+aruco.h:67:57: error: ‘ArucoDetectorParameters’ was not declared in this scope
+   67 | int ArucoDetectorParameters_GetAprilTagMinClusterPixels(ArucoDetectorParameters ap);
+      |                                                         ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:68:6: error: variable or field ‘ArucoDetectorParameters_SetAprilTagMaxNmaxima’ declared void
+   68 | void ArucoDetectorParameters_SetAprilTagMaxNmaxima(ArucoDetectorParameters ap, int aprilTagMaxNmaxima);
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:68:52: error: ‘ArucoDetectorParameters’ was not declared in this scope
+   68 | void ArucoDetectorParameters_SetAprilTagMaxNmaxima(ArucoDetectorParameters ap, int aprilTagMaxNmaxima);
+      |                                                    ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:68:80: error: expected primary-expression before ‘int’
+   68 | void ArucoDetectorParameters_SetAprilTagMaxNmaxima(ArucoDetectorParameters ap, int aprilTagMaxNmaxima);
+      |                                                                                ^~~
+aruco.h:69:51: error: ‘ArucoDetectorParameters’ was not declared in this scope
+   69 | int ArucoDetectorParameters_GetAprilTagMaxNmaxima(ArucoDetectorParameters ap);
+      |                                                   ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:70:6: error: variable or field ‘ArucoDetectorParameters_SetAprilTagCriticalRad’ declared void
+   70 | void ArucoDetectorParameters_SetAprilTagCriticalRad(ArucoDetectorParameters ap, float aprilTagCriticalRad);
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:70:53: error: ‘ArucoDetectorParameters’ was not declared in this scope
+   70 | void ArucoDetectorParameters_SetAprilTagCriticalRad(ArucoDetectorParameters ap, float aprilTagCriticalRad);
+      |                                                     ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:70:81: error: expected primary-expression before ‘float’
+   70 | void ArucoDetectorParameters_SetAprilTagCriticalRad(ArucoDetectorParameters ap, float aprilTagCriticalRad);
+      |                                                                                 ^~~~~
+aruco.h:71:54: error: ‘ArucoDetectorParameters’ was not declared in this scope
+   71 | float ArucoDetectorParameters_GetAprilTagCriticalRad(ArucoDetectorParameters ap);
+      |                                                      ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:72:6: error: variable or field ‘ArucoDetectorParameters_SetAprilTagMaxLineFitMse’ declared void
+   72 | void ArucoDetectorParameters_SetAprilTagMaxLineFitMse(ArucoDetectorParameters ap, float aprilTagMaxLineFitMse);
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:72:55: error: ‘ArucoDetectorParameters’ was not declared in this scope
+   72 | void ArucoDetectorParameters_SetAprilTagMaxLineFitMse(ArucoDetectorParameters ap, float aprilTagMaxLineFitMse);
+      |                                                       ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:72:83: error: expected primary-expression before ‘float’
+   72 | void ArucoDetectorParameters_SetAprilTagMaxLineFitMse(ArucoDetectorParameters ap, float aprilTagMaxLineFitMse);
+      |                                                                                   ^~~~~
+aruco.h:73:56: error: ‘ArucoDetectorParameters’ was not declared in this scope
+   73 | float ArucoDetectorParameters_GetAprilTagMaxLineFitMse(ArucoDetectorParameters ap);
+      |                                                        ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:74:6: error: variable or field ‘ArucoDetectorParameters_SetAprilTagMinWhiteBlackDiff’ declared void
+   74 | void ArucoDetectorParameters_SetAprilTagMinWhiteBlackDiff(ArucoDetectorParameters ap, int aprilTagMinWhiteBlackDiff);
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:74:59: error: ‘ArucoDetectorParameters’ was not declared in this scope
+   74 | void ArucoDetectorParameters_SetAprilTagMinWhiteBlackDiff(ArucoDetectorParameters ap, int aprilTagMinWhiteBlackDiff);
+      |                                                           ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:74:87: error: expected primary-expression before ‘int’
+   74 | void ArucoDetectorParameters_SetAprilTagMinWhiteBlackDiff(ArucoDetectorParameters ap, int aprilTagMinWhiteBlackDiff);
+      |                                                                                       ^~~
+aruco.h:75:58: error: ‘ArucoDetectorParameters’ was not declared in this scope
+   75 | int ArucoDetectorParameters_GetAprilTagMinWhiteBlackDiff(ArucoDetectorParameters ap);
+      |                                                          ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:76:6: error: variable or field ‘ArucoDetectorParameters_SetAprilTagDeglitch’ declared void
+   76 | void ArucoDetectorParameters_SetAprilTagDeglitch(ArucoDetectorParameters ap, int aprilTagDeglitch);
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:76:50: error: ‘ArucoDetectorParameters’ was not declared in this scope
+   76 | void ArucoDetectorParameters_SetAprilTagDeglitch(ArucoDetectorParameters ap, int aprilTagDeglitch);
+      |                                                  ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:76:78: error: expected primary-expression before ‘int’
+   76 | void ArucoDetectorParameters_SetAprilTagDeglitch(ArucoDetectorParameters ap, int aprilTagDeglitch);
+      |                                                                              ^~~
+aruco.h:77:49: error: ‘ArucoDetectorParameters’ was not declared in this scope
+   77 | int ArucoDetectorParameters_GetAprilTagDeglitch(ArucoDetectorParameters ap);
+      |                                                 ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:78:6: error: variable or field ‘ArucoDetectorParameters_SetDetectInvertedMarker’ declared void
+   78 | void ArucoDetectorParameters_SetDetectInvertedMarker(ArucoDetectorParameters ap, bool detectInvertedMarker);
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:78:54: error: ‘ArucoDetectorParameters’ was not declared in this scope
+   78 | void ArucoDetectorParameters_SetDetectInvertedMarker(ArucoDetectorParameters ap, bool detectInvertedMarker);
+      |                                                      ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:78:82: error: expected primary-expression before ‘bool’
+   78 | void ArucoDetectorParameters_SetDetectInvertedMarker(ArucoDetectorParameters ap, bool detectInvertedMarker);
+      |                                                                                  ^~~~
+aruco.h:79:54: error: ‘ArucoDetectorParameters’ was not declared in this scope
+   79 | bool ArucoDetectorParameters_GetDetectInvertedMarker(ArucoDetectorParameters ap);
+      |                                                      ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:82:1: error: ‘ArucoDictionary’ does not name a type
+   82 | ArucoDictionary getPredefinedDictionary(int dictionaryId);
+      | ^~~~~~~~~~~~~~~
+aruco.h:84:1: error: ‘ArucoDetector’ does not name a type
+   84 | ArucoDetector ArucoDetector_New();
+      | ^~~~~~~~~~~~~
+aruco.h:85:1: error: ‘ArucoDetector’ does not name a type
+   85 | ArucoDetector ArucoDetector_NewWithParams(ArucoDictionary dictionary, ArucoDetectorParameters params);
+      | ^~~~~~~~~~~~~
+aruco.h:86:6: error: variable or field ‘ArucoDetector_Close’ declared void
+   86 | void ArucoDetector_Close(ArucoDetector ad);
+      |      ^~~~~~~~~~~~~~~~~~~
+aruco.h:86:26: error: ‘ArucoDetector’ was not declared in this scope
+   86 | void ArucoDetector_Close(ArucoDetector ad);
+      |                          ^~~~~~~~~~~~~
+aruco.h:87:6: error: variable or field ‘ArucoDetector_DetectMarkers’ declared void
+   87 | void ArucoDetector_DetectMarkers(ArucoDetector ad, Mat inputArr, Points2fVector markerCorners, IntVector *markerIds, Points2fVector rejectedCandidates);
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:87:34: error: ‘ArucoDetector’ was not declared in this scope
+   87 | void ArucoDetector_DetectMarkers(ArucoDetector ad, Mat inputArr, Points2fVector markerCorners, IntVector *markerIds, Points2fVector rejectedCandidates);
+      |                                  ^~~~~~~~~~~~~
+aruco.h:87:56: error: expected primary-expression before ‘inputArr’
+   87 | void ArucoDetector_DetectMarkers(ArucoDetector ad, Mat inputArr, Points2fVector markerCorners, IntVector *markerIds, Points2fVector rejectedCandidates);
+      |                                                        ^~~~~~~~
+aruco.h:87:81: error: expected primary-expression before ‘markerCorners’
+   87 | void ArucoDetector_DetectMarkers(ArucoDetector ad, Mat inputArr, Points2fVector markerCorners, IntVector *markerIds, Points2fVector rejectedCandidates);
+      |                                                                                 ^~~~~~~~~~~~~
+aruco.h:87:106: error: expected primary-expression before ‘*’ token
+   87 | void ArucoDetector_DetectMarkers(ArucoDetector ad, Mat inputArr, Points2fVector markerCorners, IntVector *markerIds, Points2fVector rejectedCandidates);
+      |                                                                                                          ^
+aruco.h:87:107: error: ‘markerIds’ was not declared in this scope
+   87 | void ArucoDetector_DetectMarkers(ArucoDetector ad, Mat inputArr, Points2fVector markerCorners, IntVector *markerIds, Points2fVector rejectedCandidates);
+      |                                                                                                           ^~~~~~~~~
+aruco.h:87:133: error: expected primary-expression before ‘rejectedCandidates’
+   87 | void ArucoDetector_DetectMarkers(ArucoDetector ad, Mat inputArr, Points2fVector markerCorners, IntVector *markerIds, Points2fVector rejectedCandidates);
+      |                                                                                                                                     ^~~~~~~~~~~~~~~~~~
+aruco.cpp:3:1: error: ‘ArucoDetector’ does not name a type
+    3 | ArucoDetector ArucoDetector_New() {
+      | ^~~~~~~~~~~~~
+aruco.cpp:7:1: error: ‘ArucoDetector’ does not name a type
+    7 | ArucoDetector ArucoDetector_NewWithParams(ArucoDictionary dictionary, ArucoDetectorParameters params) {
+      | ^~~~~~~~~~~~~
+aruco.cpp:11:6: error: variable or field ‘ArucoDetector_Close’ declared void
+   11 | void ArucoDetector_Close(ArucoDetector ad) {
+      |      ^~~~~~~~~~~~~~~~~~~
+aruco.cpp:11:26: error: ‘ArucoDetector’ was not declared in this scope
+   11 | void ArucoDetector_Close(ArucoDetector ad) {
+      |                          ^~~~~~~~~~~~~
+aruco.cpp:15:6: error: variable or field ‘ArucoDetector_DetectMarkers’ declared void
+   15 | void ArucoDetector_DetectMarkers(ArucoDetector ad, Mat inputArr, Points2fVector markerCorners, IntVector *markerIds, Points2fVector rejectedCandidates) {
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:15:34: error: ‘ArucoDetector’ was not declared in this scope
+   15 | void ArucoDetector_DetectMarkers(ArucoDetector ad, Mat inputArr, Points2fVector markerCorners, IntVector *markerIds, Points2fVector rejectedCandidates) {
+      |                                  ^~~~~~~~~~~~~
+aruco.cpp:15:56: error: expected primary-expression before ‘inputArr’
+   15 | void ArucoDetector_DetectMarkers(ArucoDetector ad, Mat inputArr, Points2fVector markerCorners, IntVector *markerIds, Points2fVector rejectedCandidates) {
+      |                                                        ^~~~~~~~
+aruco.cpp:15:81: error: expected primary-expression before ‘markerCorners’
+   15 | void ArucoDetector_DetectMarkers(ArucoDetector ad, Mat inputArr, Points2fVector markerCorners, IntVector *markerIds, Points2fVector rejectedCandidates) {
+      |                                                                                 ^~~~~~~~~~~~~
+aruco.cpp:15:106: error: expected primary-expression before ‘*’ token
+   15 | void ArucoDetector_DetectMarkers(ArucoDetector ad, Mat inputArr, Points2fVector markerCorners, IntVector *markerIds, Points2fVector rejectedCandidates) {
+      |                                                                                                          ^
+aruco.cpp:15:107: error: ‘markerIds’ was not declared in this scope
+   15 | void ArucoDetector_DetectMarkers(ArucoDetector ad, Mat inputArr, Points2fVector markerCorners, IntVector *markerIds, Points2fVector rejectedCandidates) {
+      |                                                                                                           ^~~~~~~~~
+aruco.cpp:15:133: error: expected primary-expression before ‘rejectedCandidates’
+   15 | void ArucoDetector_DetectMarkers(ArucoDetector ad, Mat inputArr, Points2fVector markerCorners, IntVector *markerIds, Points2fVector rejectedCandidates) {
+      |                                                                                                                                     ^~~~~~~~~~~~~~~~~~
+aruco.cpp:30:1: error: ‘ArucoDetectorParameters’ does not name a type
+   30 | ArucoDetectorParameters ArucoDetectorParameters_Create()
+      | ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:35:6: error: variable or field ‘ArucoDetectorParameters_SetAdaptiveThreshWinSizeMin’ declared void
+   35 | void ArucoDetectorParameters_SetAdaptiveThreshWinSizeMin(ArucoDetectorParameters ap, int adaptiveThreshWinSizeMin) {
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:35:58: error: ‘ArucoDetectorParameters’ was not declared in this scope
+   35 | void ArucoDetectorParameters_SetAdaptiveThreshWinSizeMin(ArucoDetectorParameters ap, int adaptiveThreshWinSizeMin) {
+      |                                                          ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:35:86: error: expected primary-expression before ‘int’
+   35 | void ArucoDetectorParameters_SetAdaptiveThreshWinSizeMin(ArucoDetectorParameters ap, int adaptiveThreshWinSizeMin) {
+      |                                                                                      ^~~
+aruco.cpp:39:5: error: redefinition of ‘int ArucoDetectorParameters_GetAdaptiveThreshWinSizeMin’
+   39 | int ArucoDetectorParameters_GetAdaptiveThreshWinSizeMin(ArucoDetectorParameters ap) {
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:23:5: note: ‘int ArucoDetectorParameters_GetAdaptiveThreshWinSizeMin’ previously defined here
+   23 | int ArucoDetectorParameters_GetAdaptiveThreshWinSizeMin(ArucoDetectorParameters ap);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:39:57: error: ‘ArucoDetectorParameters’ was not declared in this scope
+   39 | int ArucoDetectorParameters_GetAdaptiveThreshWinSizeMin(ArucoDetectorParameters ap) {
+      |                                                         ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:43:6: error: variable or field ‘ArucoDetectorParameters_SetAdaptiveThreshWinSizeMax’ declared void
+   43 | void ArucoDetectorParameters_SetAdaptiveThreshWinSizeMax(ArucoDetectorParameters ap, int adaptiveThreshWinSizeMax) {
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:43:58: error: ‘ArucoDetectorParameters’ was not declared in this scope
+   43 | void ArucoDetectorParameters_SetAdaptiveThreshWinSizeMax(ArucoDetectorParameters ap, int adaptiveThreshWinSizeMax) {
+      |                                                          ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:43:86: error: expected primary-expression before ‘int’
+   43 | void ArucoDetectorParameters_SetAdaptiveThreshWinSizeMax(ArucoDetectorParameters ap, int adaptiveThreshWinSizeMax) {
+      |                                                                                      ^~~
+aruco.cpp:47:5: error: redefinition of ‘int ArucoDetectorParameters_GetAdaptiveThreshWinSizeMax’
+   47 | int ArucoDetectorParameters_GetAdaptiveThreshWinSizeMax(ArucoDetectorParameters ap) {
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:25:5: note: ‘int ArucoDetectorParameters_GetAdaptiveThreshWinSizeMax’ previously defined here
+   25 | int ArucoDetectorParameters_GetAdaptiveThreshWinSizeMax(ArucoDetectorParameters ap);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:47:57: error: ‘ArucoDetectorParameters’ was not declared in this scope
+   47 | int ArucoDetectorParameters_GetAdaptiveThreshWinSizeMax(ArucoDetectorParameters ap) {
+      |                                                         ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:51:6: error: variable or field ‘ArucoDetectorParameters_SetAdaptiveThreshWinSizeStep’ declared void
+   51 | void ArucoDetectorParameters_SetAdaptiveThreshWinSizeStep(ArucoDetectorParameters ap, int adaptiveThreshWinSizeStep) {
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:51:59: error: ‘ArucoDetectorParameters’ was not declared in this scope
+   51 | void ArucoDetectorParameters_SetAdaptiveThreshWinSizeStep(ArucoDetectorParameters ap, int adaptiveThreshWinSizeStep) {
+      |                                                           ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:51:87: error: expected primary-expression before ‘int’
+   51 | void ArucoDetectorParameters_SetAdaptiveThreshWinSizeStep(ArucoDetectorParameters ap, int adaptiveThreshWinSizeStep) {
+      |                                                                                       ^~~
+aruco.cpp:55:5: error: redefinition of ‘int ArucoDetectorParameters_GetAdaptiveThreshWinSizeStep’
+   55 | int ArucoDetectorParameters_GetAdaptiveThreshWinSizeStep(ArucoDetectorParameters ap) {
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:27:5: note: ‘int ArucoDetectorParameters_GetAdaptiveThreshWinSizeStep’ previously defined here
+   27 | int ArucoDetectorParameters_GetAdaptiveThreshWinSizeStep(ArucoDetectorParameters ap);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:55:58: error: ‘ArucoDetectorParameters’ was not declared in this scope
+   55 | int ArucoDetectorParameters_GetAdaptiveThreshWinSizeStep(ArucoDetectorParameters ap) {
+      |                                                          ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:59:6: error: variable or field ‘ArucoDetectorParameters_SetAdaptiveThreshConstant’ declared void
+   59 | void ArucoDetectorParameters_SetAdaptiveThreshConstant(ArucoDetectorParameters ap, double adaptiveThreshConstant) {
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:59:56: error: ‘ArucoDetectorParameters’ was not declared in this scope
+   59 | void ArucoDetectorParameters_SetAdaptiveThreshConstant(ArucoDetectorParameters ap, double adaptiveThreshConstant) {
+      |                                                        ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:59:84: error: expected primary-expression before ‘double’
+   59 | void ArucoDetectorParameters_SetAdaptiveThreshConstant(ArucoDetectorParameters ap, double adaptiveThreshConstant) {
+      |                                                                                    ^~~~~~
+aruco.cpp:63:8: error: redefinition of ‘double ArucoDetectorParameters_GetAdaptiveThreshConstant’
+   63 | double ArucoDetectorParameters_GetAdaptiveThreshConstant(ArucoDetectorParameters ap) {
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:29:8: note: ‘double ArucoDetectorParameters_GetAdaptiveThreshConstant’ previously defined here
+   29 | double ArucoDetectorParameters_GetAdaptiveThreshConstant(ArucoDetectorParameters ap);
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:63:58: error: ‘ArucoDetectorParameters’ was not declared in this scope
+   63 | double ArucoDetectorParameters_GetAdaptiveThreshConstant(ArucoDetectorParameters ap) {
+      |                                                          ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:67:6: error: variable or field ‘ArucoDetectorParameters_SetMinMarkerPerimeterRate’ declared void
+   67 | void ArucoDetectorParameters_SetMinMarkerPerimeterRate(ArucoDetectorParameters ap, double minMarkerPerimeterRate) {
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:67:56: error: ‘ArucoDetectorParameters’ was not declared in this scope
+   67 | void ArucoDetectorParameters_SetMinMarkerPerimeterRate(ArucoDetectorParameters ap, double minMarkerPerimeterRate) {
+      |                                                        ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:67:84: error: expected primary-expression before ‘double’
+   67 | void ArucoDetectorParameters_SetMinMarkerPerimeterRate(ArucoDetectorParameters ap, double minMarkerPerimeterRate) {
+      |                                                                                    ^~~~~~
+aruco.cpp:71:8: error: redefinition of ‘double ArucoDetectorParameters_GetMinMarkerPerimeterRate’
+   71 | double ArucoDetectorParameters_GetMinMarkerPerimeterRate(ArucoDetectorParameters ap){
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:31:8: note: ‘double ArucoDetectorParameters_GetMinMarkerPerimeterRate’ previously defined here
+   31 | double ArucoDetectorParameters_GetMinMarkerPerimeterRate(ArucoDetectorParameters ap);
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:71:58: error: ‘ArucoDetectorParameters’ was not declared in this scope
+   71 | double ArucoDetectorParameters_GetMinMarkerPerimeterRate(ArucoDetectorParameters ap){
+      |                                                          ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:75:6: error: variable or field ‘ArucoDetectorParameters_SetMaxMarkerPerimeterRate’ declared void
+   75 | void ArucoDetectorParameters_SetMaxMarkerPerimeterRate(ArucoDetectorParameters ap, double maxMarkerPerimeterRate) {
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:75:56: error: ‘ArucoDetectorParameters’ was not declared in this scope
+   75 | void ArucoDetectorParameters_SetMaxMarkerPerimeterRate(ArucoDetectorParameters ap, double maxMarkerPerimeterRate) {
+      |                                                        ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:75:84: error: expected primary-expression before ‘double’
+   75 | void ArucoDetectorParameters_SetMaxMarkerPerimeterRate(ArucoDetectorParameters ap, double maxMarkerPerimeterRate) {
+      |                                                                                    ^~~~~~
+aruco.cpp:79:8: error: redefinition of ‘double ArucoDetectorParameters_GetMaxMarkerPerimeterRate’
+   79 | double ArucoDetectorParameters_GetMaxMarkerPerimeterRate(ArucoDetectorParameters ap){
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:33:8: note: ‘double ArucoDetectorParameters_GetMaxMarkerPerimeterRate’ previously defined here
+   33 | double ArucoDetectorParameters_GetMaxMarkerPerimeterRate(ArucoDetectorParameters ap);
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:79:58: error: ‘ArucoDetectorParameters’ was not declared in this scope
+   79 | double ArucoDetectorParameters_GetMaxMarkerPerimeterRate(ArucoDetectorParameters ap){
+      |                                                          ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:83:6: error: variable or field ‘ArucoDetectorParameters_SetPolygonalApproxAccuracyRate’ declared void
+   83 | void ArucoDetectorParameters_SetPolygonalApproxAccuracyRate(ArucoDetectorParameters ap, double polygonalApproxAccuracyRate) {
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:83:61: error: ‘ArucoDetectorParameters’ was not declared in this scope
+   83 | void ArucoDetectorParameters_SetPolygonalApproxAccuracyRate(ArucoDetectorParameters ap, double polygonalApproxAccuracyRate) {
+      |                                                             ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:83:89: error: expected primary-expression before ‘double’
+   83 | void ArucoDetectorParameters_SetPolygonalApproxAccuracyRate(ArucoDetectorParameters ap, double polygonalApproxAccuracyRate) {
+      |                                                                                         ^~~~~~
+aruco.cpp:87:8: error: redefinition of ‘double ArucoDetectorParameters_GetPolygonalApproxAccuracyRate’
+   87 | double ArucoDetectorParameters_GetPolygonalApproxAccuracyRate(ArucoDetectorParameters ap){
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:35:8: note: ‘double ArucoDetectorParameters_GetPolygonalApproxAccuracyRate’ previously defined here
+   35 | double ArucoDetectorParameters_GetPolygonalApproxAccuracyRate(ArucoDetectorParameters ap);
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:87:63: error: ‘ArucoDetectorParameters’ was not declared in this scope
+   87 | double ArucoDetectorParameters_GetPolygonalApproxAccuracyRate(ArucoDetectorParameters ap){
+      |                                                               ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:91:6: error: variable or field ‘ArucoDetectorParameters_SetMinCornerDistanceRate’ declared void
+   91 | void ArucoDetectorParameters_SetMinCornerDistanceRate(ArucoDetectorParameters ap, double minCornerDistanceRate) {
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:91:55: error: ‘ArucoDetectorParameters’ was not declared in this scope
+   91 | void ArucoDetectorParameters_SetMinCornerDistanceRate(ArucoDetectorParameters ap, double minCornerDistanceRate) {
+      |                                                       ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:91:83: error: expected primary-expression before ‘double’
+   91 | void ArucoDetectorParameters_SetMinCornerDistanceRate(ArucoDetectorParameters ap, double minCornerDistanceRate) {
+      |                                                                                   ^~~~~~
+aruco.cpp:95:8: error: redefinition of ‘double ArucoDetectorParameters_GetMinCornerDistanceRate’
+   95 | double ArucoDetectorParameters_GetMinCornerDistanceRate(ArucoDetectorParameters ap) {
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:37:8: note: ‘double ArucoDetectorParameters_GetMinCornerDistanceRate’ previously defined here
+   37 | double ArucoDetectorParameters_GetMinCornerDistanceRate(ArucoDetectorParameters ap);
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:95:57: error: ‘ArucoDetectorParameters’ was not declared in this scope
+   95 | double ArucoDetectorParameters_GetMinCornerDistanceRate(ArucoDetectorParameters ap) {
+      |                                                         ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:99:6: error: variable or field ‘ArucoDetectorParameters_SetMinDistanceToBorder’ declared void
+   99 | void ArucoDetectorParameters_SetMinDistanceToBorder(ArucoDetectorParameters ap, int minDistanceToBorder) {
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:99:53: error: ‘ArucoDetectorParameters’ was not declared in this scope
+   99 | void ArucoDetectorParameters_SetMinDistanceToBorder(ArucoDetectorParameters ap, int minDistanceToBorder) {
+      |                                                     ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:99:81: error: expected primary-expression before ‘int’
+   99 | void ArucoDetectorParameters_SetMinDistanceToBorder(ArucoDetectorParameters ap, int minDistanceToBorder) {
+      |                                                                                 ^~~
+aruco.cpp:103:5: error: redefinition of ‘int ArucoDetectorParameters_GetMinDistanceToBorder’
+  103 | int ArucoDetectorParameters_GetMinDistanceToBorder(ArucoDetectorParameters ap) {
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:39:5: note: ‘int ArucoDetectorParameters_GetMinDistanceToBorder’ previously defined here
+   39 | int ArucoDetectorParameters_GetMinDistanceToBorder(ArucoDetectorParameters ap);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:103:52: error: ‘ArucoDetectorParameters’ was not declared in this scope
+  103 | int ArucoDetectorParameters_GetMinDistanceToBorder(ArucoDetectorParameters ap) {
+      |                                                    ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:107:6: error: variable or field ‘ArucoDetectorParameters_SetMinMarkerDistanceRate’ declared void
+  107 | void ArucoDetectorParameters_SetMinMarkerDistanceRate(ArucoDetectorParameters ap, double minMarkerDistanceRate) {
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:107:55: error: ‘ArucoDetectorParameters’ was not declared in this scope
+  107 | void ArucoDetectorParameters_SetMinMarkerDistanceRate(ArucoDetectorParameters ap, double minMarkerDistanceRate) {
+      |                                                       ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:107:83: error: expected primary-expression before ‘double’
+  107 | void ArucoDetectorParameters_SetMinMarkerDistanceRate(ArucoDetectorParameters ap, double minMarkerDistanceRate) {
+      |                                                                                   ^~~~~~
+aruco.cpp:111:8: error: redefinition of ‘double ArucoDetectorParameters_GetMinMarkerDistanceRate’
+  111 | double ArucoDetectorParameters_GetMinMarkerDistanceRate(ArucoDetectorParameters ap) {
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:41:8: note: ‘double ArucoDetectorParameters_GetMinMarkerDistanceRate’ previously defined here
+   41 | double ArucoDetectorParameters_GetMinMarkerDistanceRate(ArucoDetectorParameters ap);
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:111:57: error: ‘ArucoDetectorParameters’ was not declared in this scope
+  111 | double ArucoDetectorParameters_GetMinMarkerDistanceRate(ArucoDetectorParameters ap) {
+      |                                                         ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:115:6: error: variable or field ‘ArucoDetectorParameters_SetCornerRefinementMethod’ declared void
+  115 | void ArucoDetectorParameters_SetCornerRefinementMethod(ArucoDetectorParameters ap, int cornerRefinementMethod) {
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:115:56: error: ‘ArucoDetectorParameters’ was not declared in this scope
+  115 | void ArucoDetectorParameters_SetCornerRefinementMethod(ArucoDetectorParameters ap, int cornerRefinementMethod) {
+      |                                                        ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:115:84: error: expected primary-expression before ‘int’
+  115 | void ArucoDetectorParameters_SetCornerRefinementMethod(ArucoDetectorParameters ap, int cornerRefinementMethod) {
+      |                                                                                    ^~~
+aruco.cpp:119:5: error: redefinition of ‘int ArucoDetectorParameters_GetCornerRefinementMethod’
+  119 | int ArucoDetectorParameters_GetCornerRefinementMethod(ArucoDetectorParameters ap) {
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:43:5: note: ‘int ArucoDetectorParameters_GetCornerRefinementMethod’ previously defined here
+   43 | int ArucoDetectorParameters_GetCornerRefinementMethod(ArucoDetectorParameters ap);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:119:55: error: ‘ArucoDetectorParameters’ was not declared in this scope
+  119 | int ArucoDetectorParameters_GetCornerRefinementMethod(ArucoDetectorParameters ap) {
+      |                                                       ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:123:6: error: variable or field ‘ArucoDetectorParameters_SetCornerRefinementWinSize’ declared void
+  123 | void ArucoDetectorParameters_SetCornerRefinementWinSize(ArucoDetectorParameters ap, int cornerRefinementWinSize) {
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:123:57: error: ‘ArucoDetectorParameters’ was not declared in this scope
+  123 | void ArucoDetectorParameters_SetCornerRefinementWinSize(ArucoDetectorParameters ap, int cornerRefinementWinSize) {
+      |                                                         ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:123:85: error: expected primary-expression before ‘int’
+  123 | void ArucoDetectorParameters_SetCornerRefinementWinSize(ArucoDetectorParameters ap, int cornerRefinementWinSize) {
+      |                                                                                     ^~~
+aruco.cpp:127:5: error: redefinition of ‘int ArucoDetectorParameters_GetCornerRefinementWinSize’
+  127 | int ArucoDetectorParameters_GetCornerRefinementWinSize(ArucoDetectorParameters ap) {
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:45:5: note: ‘int ArucoDetectorParameters_GetCornerRefinementWinSize’ previously defined here
+   45 | int ArucoDetectorParameters_GetCornerRefinementWinSize(ArucoDetectorParameters ap);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:127:56: error: ‘ArucoDetectorParameters’ was not declared in this scope
+  127 | int ArucoDetectorParameters_GetCornerRefinementWinSize(ArucoDetectorParameters ap) {
+      |                                                        ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:131:6: error: variable or field ‘ArucoDetectorParameters_SetCornerRefinementMaxIterations’ declared void
+  131 | void ArucoDetectorParameters_SetCornerRefinementMaxIterations(ArucoDetectorParameters ap, int cornerRefinementMaxIterations) {
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:131:63: error: ‘ArucoDetectorParameters’ was not declared in this scope
+  131 | void ArucoDetectorParameters_SetCornerRefinementMaxIterations(ArucoDetectorParameters ap, int cornerRefinementMaxIterations) {
+      |                                                               ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:131:91: error: expected primary-expression before ‘int’
+  131 | void ArucoDetectorParameters_SetCornerRefinementMaxIterations(ArucoDetectorParameters ap, int cornerRefinementMaxIterations) {
+      |                                                                                           ^~~
+aruco.cpp:135:5: error: redefinition of ‘int ArucoDetectorParameters_GetCornerRefinementMaxIterations’
+  135 | int ArucoDetectorParameters_GetCornerRefinementMaxIterations(ArucoDetectorParameters ap) {
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:47:5: note: ‘int ArucoDetectorParameters_GetCornerRefinementMaxIterations’ previously defined here
+   47 | int ArucoDetectorParameters_GetCornerRefinementMaxIterations(ArucoDetectorParameters ap);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:135:62: error: ‘ArucoDetectorParameters’ was not declared in this scope
+  135 | int ArucoDetectorParameters_GetCornerRefinementMaxIterations(ArucoDetectorParameters ap) {
+      |                                                              ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:139:6: error: variable or field ‘ArucoDetectorParameters_SetCornerRefinementMinAccuracy’ declared void
+  139 | void ArucoDetectorParameters_SetCornerRefinementMinAccuracy(ArucoDetectorParameters ap, double cornerRefinementMinAccuracy) {
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:139:61: error: ‘ArucoDetectorParameters’ was not declared in this scope
+  139 | void ArucoDetectorParameters_SetCornerRefinementMinAccuracy(ArucoDetectorParameters ap, double cornerRefinementMinAccuracy) {
+      |                                                             ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:139:89: error: expected primary-expression before ‘double’
+  139 | void ArucoDetectorParameters_SetCornerRefinementMinAccuracy(ArucoDetectorParameters ap, double cornerRefinementMinAccuracy) {
+      |                                                                                         ^~~~~~
+aruco.cpp:143:8: error: redefinition of ‘double ArucoDetectorParameters_GetCornerRefinementMinAccuracy’
+  143 | double ArucoDetectorParameters_GetCornerRefinementMinAccuracy(ArucoDetectorParameters ap) {
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:49:8: note: ‘double ArucoDetectorParameters_GetCornerRefinementMinAccuracy’ previously defined here
+   49 | double ArucoDetectorParameters_GetCornerRefinementMinAccuracy(ArucoDetectorParameters ap);
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:143:63: error: ‘ArucoDetectorParameters’ was not declared in this scope
+  143 | double ArucoDetectorParameters_GetCornerRefinementMinAccuracy(ArucoDetectorParameters ap) {
+      |                                                               ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:147:6: error: variable or field ‘ArucoDetectorParameters_SetMarkerBorderBits’ declared void
+  147 | void ArucoDetectorParameters_SetMarkerBorderBits(ArucoDetectorParameters ap, int markerBorderBits) {
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:147:50: error: ‘ArucoDetectorParameters’ was not declared in this scope
+  147 | void ArucoDetectorParameters_SetMarkerBorderBits(ArucoDetectorParameters ap, int markerBorderBits) {
+      |                                                  ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:147:78: error: expected primary-expression before ‘int’
+  147 | void ArucoDetectorParameters_SetMarkerBorderBits(ArucoDetectorParameters ap, int markerBorderBits) {
+      |                                                                              ^~~
+aruco.cpp:151:5: error: redefinition of ‘int ArucoDetectorParameters_GetMarkerBorderBits’
+  151 | int ArucoDetectorParameters_GetMarkerBorderBits(ArucoDetectorParameters ap) {
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:51:5: note: ‘int ArucoDetectorParameters_GetMarkerBorderBits’ previously defined here
+   51 | int ArucoDetectorParameters_GetMarkerBorderBits(ArucoDetectorParameters ap);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:151:49: error: ‘ArucoDetectorParameters’ was not declared in this scope
+  151 | int ArucoDetectorParameters_GetMarkerBorderBits(ArucoDetectorParameters ap) {
+      |                                                 ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:155:6: error: variable or field ‘ArucoDetectorParameters_SetPerspectiveRemovePixelPerCell’ declared void
+  155 | void ArucoDetectorParameters_SetPerspectiveRemovePixelPerCell(ArucoDetectorParameters ap, int perspectiveRemovePixelPerCell) {
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:155:63: error: ‘ArucoDetectorParameters’ was not declared in this scope
+  155 | void ArucoDetectorParameters_SetPerspectiveRemovePixelPerCell(ArucoDetectorParameters ap, int perspectiveRemovePixelPerCell) {
+      |                                                               ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:155:91: error: expected primary-expression before ‘int’
+  155 | void ArucoDetectorParameters_SetPerspectiveRemovePixelPerCell(ArucoDetectorParameters ap, int perspectiveRemovePixelPerCell) {
+      |                                                                                           ^~~
+aruco.cpp:159:5: error: redefinition of ‘int ArucoDetectorParameters_GetPerspectiveRemovePixelPerCell’
+  159 | int ArucoDetectorParameters_GetPerspectiveRemovePixelPerCell(ArucoDetectorParameters ap) {
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:53:5: note: ‘int ArucoDetectorParameters_GetPerspectiveRemovePixelPerCell’ previously defined here
+   53 | int ArucoDetectorParameters_GetPerspectiveRemovePixelPerCell(ArucoDetectorParameters ap);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:159:62: error: ‘ArucoDetectorParameters’ was not declared in this scope
+  159 | int ArucoDetectorParameters_GetPerspectiveRemovePixelPerCell(ArucoDetectorParameters ap) {
+      |                                                              ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:163:6: error: variable or field ‘ArucoDetectorParameters_SetPerspectiveRemoveIgnoredMarginPerCell’ declared void
+  163 | void ArucoDetectorParameters_SetPerspectiveRemoveIgnoredMarginPerCell(ArucoDetectorParameters ap, double perspectiveRemoveIgnoredMarginPerCell) {
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:163:71: error: ‘ArucoDetectorParameters’ was not declared in this scope
+  163 | void ArucoDetectorParameters_SetPerspectiveRemoveIgnoredMarginPerCell(ArucoDetectorParameters ap, double perspectiveRemoveIgnoredMarginPerCell) {
+      |                                                                       ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:163:99: error: expected primary-expression before ‘double’
+  163 | void ArucoDetectorParameters_SetPerspectiveRemoveIgnoredMarginPerCell(ArucoDetectorParameters ap, double perspectiveRemoveIgnoredMarginPerCell) {
+      |                                                                                                   ^~~~~~
+aruco.cpp:167:8: error: redefinition of ‘double ArucoDetectorParameters_GetPerspectiveRemoveIgnoredMarginPerCell’
+  167 | double ArucoDetectorParameters_GetPerspectiveRemoveIgnoredMarginPerCell(ArucoDetectorParameters ap) {
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:55:8: note: ‘double ArucoDetectorParameters_GetPerspectiveRemoveIgnoredMarginPerCell’ previously defined here
+   55 | double ArucoDetectorParameters_GetPerspectiveRemoveIgnoredMarginPerCell(ArucoDetectorParameters ap);
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:167:73: error: ‘ArucoDetectorParameters’ was not declared in this scope
+  167 | double ArucoDetectorParameters_GetPerspectiveRemoveIgnoredMarginPerCell(ArucoDetectorParameters ap) {
+      |                                                                         ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:171:6: error: variable or field ‘ArucoDetectorParameters_SetMaxErroneousBitsInBorderRate’ declared void
+  171 | void ArucoDetectorParameters_SetMaxErroneousBitsInBorderRate(ArucoDetectorParameters ap, double maxErroneousBitsInBorderRate) {
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:171:62: error: ‘ArucoDetectorParameters’ was not declared in this scope
+  171 | void ArucoDetectorParameters_SetMaxErroneousBitsInBorderRate(ArucoDetectorParameters ap, double maxErroneousBitsInBorderRate) {
+      |                                                              ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:171:90: error: expected primary-expression before ‘double’
+  171 | void ArucoDetectorParameters_SetMaxErroneousBitsInBorderRate(ArucoDetectorParameters ap, double maxErroneousBitsInBorderRate) {
+      |                                                                                          ^~~~~~
+aruco.cpp:175:8: error: redefinition of ‘double ArucoDetectorParameters_GetMaxErroneousBitsInBorderRate’
+  175 | double ArucoDetectorParameters_GetMaxErroneousBitsInBorderRate(ArucoDetectorParameters ap) {
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:57:8: note: ‘double ArucoDetectorParameters_GetMaxErroneousBitsInBorderRate’ previously defined here
+   57 | double ArucoDetectorParameters_GetMaxErroneousBitsInBorderRate(ArucoDetectorParameters ap);
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:175:64: error: ‘ArucoDetectorParameters’ was not declared in this scope
+  175 | double ArucoDetectorParameters_GetMaxErroneousBitsInBorderRate(ArucoDetectorParameters ap) {
+      |                                                                ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:179:6: error: variable or field ‘ArucoDetectorParameters_SetMinOtsuStdDev’ declared void
+  179 | void ArucoDetectorParameters_SetMinOtsuStdDev(ArucoDetectorParameters ap, double minOtsuStdDev) {
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:179:47: error: ‘ArucoDetectorParameters’ was not declared in this scope
+  179 | void ArucoDetectorParameters_SetMinOtsuStdDev(ArucoDetectorParameters ap, double minOtsuStdDev) {
+      |                                               ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:179:75: error: expected primary-expression before ‘double’
+  179 | void ArucoDetectorParameters_SetMinOtsuStdDev(ArucoDetectorParameters ap, double minOtsuStdDev) {
+      |                                                                           ^~~~~~
+aruco.cpp:183:8: error: redefinition of ‘double ArucoDetectorParameters_GetMinOtsuStdDev’
+  183 | double ArucoDetectorParameters_GetMinOtsuStdDev(ArucoDetectorParameters ap) {
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:59:8: note: ‘double ArucoDetectorParameters_GetMinOtsuStdDev’ previously defined here
+   59 | double ArucoDetectorParameters_GetMinOtsuStdDev(ArucoDetectorParameters ap);
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:183:49: error: ‘ArucoDetectorParameters’ was not declared in this scope
+  183 | double ArucoDetectorParameters_GetMinOtsuStdDev(ArucoDetectorParameters ap) {
+      |                                                 ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:187:6: error: variable or field ‘ArucoDetectorParameters_SetErrorCorrectionRate’ declared void
+  187 | void ArucoDetectorParameters_SetErrorCorrectionRate(ArucoDetectorParameters ap, double errorCorrectionRate) {
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:187:53: error: ‘ArucoDetectorParameters’ was not declared in this scope
+  187 | void ArucoDetectorParameters_SetErrorCorrectionRate(ArucoDetectorParameters ap, double errorCorrectionRate) {
+      |                                                     ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:187:81: error: expected primary-expression before ‘double’
+  187 | void ArucoDetectorParameters_SetErrorCorrectionRate(ArucoDetectorParameters ap, double errorCorrectionRate) {
+      |                                                                                 ^~~~~~
+aruco.cpp:191:8: error: redefinition of ‘double ArucoDetectorParameters_GetErrorCorrectionRate’
+  191 | double ArucoDetectorParameters_GetErrorCorrectionRate(ArucoDetectorParameters ap) {
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:61:8: note: ‘double ArucoDetectorParameters_GetErrorCorrectionRate’ previously defined here
+   61 | double ArucoDetectorParameters_GetErrorCorrectionRate(ArucoDetectorParameters ap);
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:191:55: error: ‘ArucoDetectorParameters’ was not declared in this scope
+  191 | double ArucoDetectorParameters_GetErrorCorrectionRate(ArucoDetectorParameters ap) {
+      |                                                       ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:195:6: error: variable or field ‘ArucoDetectorParameters_SetAprilTagQuadDecimate’ declared void
+  195 | void ArucoDetectorParameters_SetAprilTagQuadDecimate(ArucoDetectorParameters ap, float aprilTagQuadDecimate) {
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:195:54: error: ‘ArucoDetectorParameters’ was not declared in this scope
+  195 | void ArucoDetectorParameters_SetAprilTagQuadDecimate(ArucoDetectorParameters ap, float aprilTagQuadDecimate) {
+      |                                                      ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:195:82: error: expected primary-expression before ‘float’
+  195 | void ArucoDetectorParameters_SetAprilTagQuadDecimate(ArucoDetectorParameters ap, float aprilTagQuadDecimate) {
+      |                                                                                  ^~~~~
+aruco.cpp:199:7: error: redefinition of ‘float ArucoDetectorParameters_GetAprilTagQuadDecimate’
+  199 | float ArucoDetectorParameters_GetAprilTagQuadDecimate(ArucoDetectorParameters ap) {
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:63:7: note: ‘float ArucoDetectorParameters_GetAprilTagQuadDecimate’ previously defined here
+   63 | float ArucoDetectorParameters_GetAprilTagQuadDecimate(ArucoDetectorParameters ap);
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:199:55: error: ‘ArucoDetectorParameters’ was not declared in this scope
+  199 | float ArucoDetectorParameters_GetAprilTagQuadDecimate(ArucoDetectorParameters ap) {
+      |                                                       ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:203:6: error: variable or field ‘ArucoDetectorParameters_SetAprilTagQuadSigma’ declared void
+  203 | void ArucoDetectorParameters_SetAprilTagQuadSigma(ArucoDetectorParameters ap, float aprilTagQuadSigma) {
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:203:51: error: ‘ArucoDetectorParameters’ was not declared in this scope
+  203 | void ArucoDetectorParameters_SetAprilTagQuadSigma(ArucoDetectorParameters ap, float aprilTagQuadSigma) {
+      |                                                   ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:203:79: error: expected primary-expression before ‘float’
+  203 | void ArucoDetectorParameters_SetAprilTagQuadSigma(ArucoDetectorParameters ap, float aprilTagQuadSigma) {
+      |                                                                               ^~~~~
+aruco.cpp:207:7: error: redefinition of ‘float ArucoDetectorParameters_GetAprilTagQuadSigma’
+  207 | float ArucoDetectorParameters_GetAprilTagQuadSigma(ArucoDetectorParameters ap) {
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:65:7: note: ‘float ArucoDetectorParameters_GetAprilTagQuadSigma’ previously defined here
+   65 | float ArucoDetectorParameters_GetAprilTagQuadSigma(ArucoDetectorParameters ap);
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:207:52: error: ‘ArucoDetectorParameters’ was not declared in this scope
+  207 | float ArucoDetectorParameters_GetAprilTagQuadSigma(ArucoDetectorParameters ap) {
+      |                                                    ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:211:6: error: variable or field ‘ArucoDetectorParameters_SetAprilTagMinClusterPixels’ declared void
+  211 | void ArucoDetectorParameters_SetAprilTagMinClusterPixels(ArucoDetectorParameters ap, int aprilTagMinClusterPixels) {
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:211:58: error: ‘ArucoDetectorParameters’ was not declared in this scope
+  211 | void ArucoDetectorParameters_SetAprilTagMinClusterPixels(ArucoDetectorParameters ap, int aprilTagMinClusterPixels) {
+      |                                                          ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:211:86: error: expected primary-expression before ‘int’
+  211 | void ArucoDetectorParameters_SetAprilTagMinClusterPixels(ArucoDetectorParameters ap, int aprilTagMinClusterPixels) {
+      |                                                                                      ^~~
+aruco.cpp:215:5: error: redefinition of ‘int ArucoDetectorParameters_GetAprilTagMinClusterPixels’
+  215 | int ArucoDetectorParameters_GetAprilTagMinClusterPixels(ArucoDetectorParameters ap) {
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:67:5: note: ‘int ArucoDetectorParameters_GetAprilTagMinClusterPixels’ previously defined here
+   67 | int ArucoDetectorParameters_GetAprilTagMinClusterPixels(ArucoDetectorParameters ap);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:215:57: error: ‘ArucoDetectorParameters’ was not declared in this scope
+  215 | int ArucoDetectorParameters_GetAprilTagMinClusterPixels(ArucoDetectorParameters ap) {
+      |                                                         ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:219:6: error: variable or field ‘ArucoDetectorParameters_SetAprilTagMaxNmaxima’ declared void
+  219 | void ArucoDetectorParameters_SetAprilTagMaxNmaxima(ArucoDetectorParameters ap, int aprilTagMaxNmaxima) {
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:219:52: error: ‘ArucoDetectorParameters’ was not declared in this scope
+  219 | void ArucoDetectorParameters_SetAprilTagMaxNmaxima(ArucoDetectorParameters ap, int aprilTagMaxNmaxima) {
+      |                                                    ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:219:80: error: expected primary-expression before ‘int’
+  219 | void ArucoDetectorParameters_SetAprilTagMaxNmaxima(ArucoDetectorParameters ap, int aprilTagMaxNmaxima) {
+      |                                                                                ^~~
+aruco.cpp:223:5: error: redefinition of ‘int ArucoDetectorParameters_GetAprilTagMaxNmaxima’
+  223 | int ArucoDetectorParameters_GetAprilTagMaxNmaxima(ArucoDetectorParameters ap) {
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:69:5: note: ‘int ArucoDetectorParameters_GetAprilTagMaxNmaxima’ previously defined here
+   69 | int ArucoDetectorParameters_GetAprilTagMaxNmaxima(ArucoDetectorParameters ap);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:223:51: error: ‘ArucoDetectorParameters’ was not declared in this scope
+  223 | int ArucoDetectorParameters_GetAprilTagMaxNmaxima(ArucoDetectorParameters ap) {
+      |                                                   ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:227:6: error: variable or field ‘ArucoDetectorParameters_SetAprilTagCriticalRad’ declared void
+  227 | void ArucoDetectorParameters_SetAprilTagCriticalRad(ArucoDetectorParameters ap, float aprilTagCriticalRad) {
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:227:53: error: ‘ArucoDetectorParameters’ was not declared in this scope
+  227 | void ArucoDetectorParameters_SetAprilTagCriticalRad(ArucoDetectorParameters ap, float aprilTagCriticalRad) {
+      |                                                     ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:227:81: error: expected primary-expression before ‘float’
+  227 | void ArucoDetectorParameters_SetAprilTagCriticalRad(ArucoDetectorParameters ap, float aprilTagCriticalRad) {
+      |                                                                                 ^~~~~
+aruco.cpp:231:7: error: redefinition of ‘float ArucoDetectorParameters_GetAprilTagCriticalRad’
+  231 | float ArucoDetectorParameters_GetAprilTagCriticalRad(ArucoDetectorParameters ap) {
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:71:7: note: ‘float ArucoDetectorParameters_GetAprilTagCriticalRad’ previously defined here
+   71 | float ArucoDetectorParameters_GetAprilTagCriticalRad(ArucoDetectorParameters ap);
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:231:54: error: ‘ArucoDetectorParameters’ was not declared in this scope
+  231 | float ArucoDetectorParameters_GetAprilTagCriticalRad(ArucoDetectorParameters ap) {
+      |                                                      ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:235:6: error: variable or field ‘ArucoDetectorParameters_SetAprilTagMaxLineFitMse’ declared void
+  235 | void ArucoDetectorParameters_SetAprilTagMaxLineFitMse(ArucoDetectorParameters ap, float aprilTagMaxLineFitMse) {
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:235:55: error: ‘ArucoDetectorParameters’ was not declared in this scope
+  235 | void ArucoDetectorParameters_SetAprilTagMaxLineFitMse(ArucoDetectorParameters ap, float aprilTagMaxLineFitMse) {
+      |                                                       ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:235:83: error: expected primary-expression before ‘float’
+  235 | void ArucoDetectorParameters_SetAprilTagMaxLineFitMse(ArucoDetectorParameters ap, float aprilTagMaxLineFitMse) {
+      |                                                                                   ^~~~~
+aruco.cpp:239:7: error: redefinition of ‘float ArucoDetectorParameters_GetAprilTagMaxLineFitMse’
+  239 | float ArucoDetectorParameters_GetAprilTagMaxLineFitMse(ArucoDetectorParameters ap) {
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:73:7: note: ‘float ArucoDetectorParameters_GetAprilTagMaxLineFitMse’ previously defined here
+   73 | float ArucoDetectorParameters_GetAprilTagMaxLineFitMse(ArucoDetectorParameters ap);
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:239:56: error: ‘ArucoDetectorParameters’ was not declared in this scope
+  239 | float ArucoDetectorParameters_GetAprilTagMaxLineFitMse(ArucoDetectorParameters ap) {
+      |                                                        ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:243:6: error: variable or field ‘ArucoDetectorParameters_SetAprilTagMinWhiteBlackDiff’ declared void
+  243 | void ArucoDetectorParameters_SetAprilTagMinWhiteBlackDiff(ArucoDetectorParameters ap, int aprilTagMinWhiteBlackDiff) {
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:243:59: error: ‘ArucoDetectorParameters’ was not declared in this scope
+  243 | void ArucoDetectorParameters_SetAprilTagMinWhiteBlackDiff(ArucoDetectorParameters ap, int aprilTagMinWhiteBlackDiff) {
+      |                                                           ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:243:87: error: expected primary-expression before ‘int’
+  243 | void ArucoDetectorParameters_SetAprilTagMinWhiteBlackDiff(ArucoDetectorParameters ap, int aprilTagMinWhiteBlackDiff) {
+      |                                                                                       ^~~
+aruco.cpp:247:5: error: redefinition of ‘int ArucoDetectorParameters_GetAprilTagMinWhiteBlackDiff’
+  247 | int ArucoDetectorParameters_GetAprilTagMinWhiteBlackDiff(ArucoDetectorParameters ap) {
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:75:5: note: ‘int ArucoDetectorParameters_GetAprilTagMinWhiteBlackDiff’ previously defined here
+   75 | int ArucoDetectorParameters_GetAprilTagMinWhiteBlackDiff(ArucoDetectorParameters ap);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:247:58: error: ‘ArucoDetectorParameters’ was not declared in this scope
+  247 | int ArucoDetectorParameters_GetAprilTagMinWhiteBlackDiff(ArucoDetectorParameters ap) {
+      |                                                          ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:251:6: error: variable or field ‘ArucoDetectorParameters_SetAprilTagDeglitch’ declared void
+  251 | void ArucoDetectorParameters_SetAprilTagDeglitch(ArucoDetectorParameters ap, int aprilTagDeglitch) {
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:251:50: error: ‘ArucoDetectorParameters’ was not declared in this scope
+  251 | void ArucoDetectorParameters_SetAprilTagDeglitch(ArucoDetectorParameters ap, int aprilTagDeglitch) {
+      |                                                  ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:251:78: error: expected primary-expression before ‘int’
+  251 | void ArucoDetectorParameters_SetAprilTagDeglitch(ArucoDetectorParameters ap, int aprilTagDeglitch) {
+      |                                                                              ^~~
+aruco.cpp:255:5: error: redefinition of ‘int ArucoDetectorParameters_GetAprilTagDeglitch’
+  255 | int ArucoDetectorParameters_GetAprilTagDeglitch(ArucoDetectorParameters ap) {
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:77:5: note: ‘int ArucoDetectorParameters_GetAprilTagDeglitch’ previously defined here
+   77 | int ArucoDetectorParameters_GetAprilTagDeglitch(ArucoDetectorParameters ap);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:255:49: error: ‘ArucoDetectorParameters’ was not declared in this scope
+  255 | int ArucoDetectorParameters_GetAprilTagDeglitch(ArucoDetectorParameters ap) {
+      |                                                 ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:259:6: error: variable or field ‘ArucoDetectorParameters_SetDetectInvertedMarker’ declared void
+  259 | void ArucoDetectorParameters_SetDetectInvertedMarker(ArucoDetectorParameters ap, bool detectInvertedMarker) {
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:259:54: error: ‘ArucoDetectorParameters’ was not declared in this scope
+  259 | void ArucoDetectorParameters_SetDetectInvertedMarker(ArucoDetectorParameters ap, bool detectInvertedMarker) {
+      |                                                      ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:259:82: error: expected primary-expression before ‘bool’
+  259 | void ArucoDetectorParameters_SetDetectInvertedMarker(ArucoDetectorParameters ap, bool detectInvertedMarker) {
+      |                                                                                  ^~~~
+aruco.cpp:263:6: error: redefinition of ‘bool ArucoDetectorParameters_GetDetectInvertedMarker’
+  263 | bool ArucoDetectorParameters_GetDetectInvertedMarker(ArucoDetectorParameters ap) {
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.h:79:6: note: ‘bool ArucoDetectorParameters_GetDetectInvertedMarker’ previously defined here
+   79 | bool ArucoDetectorParameters_GetDetectInvertedMarker(ArucoDetectorParameters ap);
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp:263:54: error: ‘ArucoDetectorParameters’ was not declared in this scope
+  263 | bool ArucoDetectorParameters_GetDetectInvertedMarker(ArucoDetectorParameters ap) {
+      |                                                      ^~~~~~~~~~~~~~~~~~~~~~~
+aruco.cpp: In function ‘void ArucoDrawDetectedMarkers(Mat, Points2fVector, IntVector, Scalar)’:
+aruco.cpp:275:9: error: ‘cv::aruco’ has not been declared
+  275 |     cv::aruco::drawDetectedMarkers(*image, *markerCorners, _markerIds, _borderColor);
+      |         ^~~~~
+aruco.cpp: In function ‘void ArucoGenerateImageMarker(int, int, int, Mat, int)’:
+aruco.cpp:280:9: error: ‘cv::aruco’ has not been declared
+  280 |     cv::aruco::Dictionary dict = cv::aruco::getPredefinedDictionary(dictionaryId);
+      |         ^~~~~
+aruco.cpp:281:9: error: ‘cv::aruco’ has not been declared
+  281 |     cv::aruco::generateImageMarker(dict, id, sidePixels, *img, borderBits);
+      |         ^~~~~
+aruco.cpp:281:36: error: ‘dict’ was not declared in this scope
+  281 |     cv::aruco::generateImageMarker(dict, id, sidePixels, *img, borderBits);
+      |                                    ^~~~
+aruco.cpp: At global scope:
+aruco.cpp:284:1: error: ‘ArucoDictionary’ does not name a type
+  284 | ArucoDictionary getPredefinedDictionary(int dictionaryId)
+      | ^~~~~~~~~~~~~~~
