@@ -26,6 +26,8 @@ RUN apt-get install -y -qq \
 # Copy the rest of the application code
 COPY . .
 
+COPY receipts/ ./receipts
+
 # Compile the Go application
 RUN go build -o main .
 

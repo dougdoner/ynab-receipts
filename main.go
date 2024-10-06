@@ -12,7 +12,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/otiai10/gosseract"
+	"github.com/otiai10/gosseract/v2"
 	"gocv.io/x/gocv"
 )
 
@@ -172,12 +172,13 @@ func main() {
 		}
 		imagePath := fmt.Sprintf("%s/%s", receiptsFolder, receiptFile.Name())
 		lineItems, err := processReceiptImage(imagePath)
+
+		fmt.Println(lineItems)
+
 		if err != nil {
 			log.Printf("failed to process receipt %s: %v", receiptFile.Name(), err)
 			continue
 		}
-
-		print(lineItems)
 
 		// err = addTransactionsToYNAB(lineItems)
 		// if err != nil {
